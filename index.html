@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenzia di viaggi Destinazione sogni</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                   <img src="img/Logo3.png" alt="Logo Destinazione Sogni" class="img-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fs-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link active " aria-current="page" href="#">
+                                <span class="d-none d-md-inline fw-bold">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link active " aria-current="page" href="#WelcomeSummer">
+                                <span class="d-none d-md-inline fw-bold">Welcome Summer</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link active " aria-current="page" href="#DayDeal">
+                                <span class="d-none d-md-inline fw-bold">Day Deal</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link active " aria-current="page" href="#WeekDeal">
+                                <span class="d-none d-md-inline fw-bold">Week Deal</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link active " aria-current="page" href="#LastMinut">
+                                <span class="d-none d-md-inline fw-bold">Last Minut</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link" href="#Testimonial">
+                                <span class="d-none d-md-inline fw-bold text-dark">Testimonial</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex align-items-center " role="search">
+                        <input class="form-control me-2 d-none d-md-block text-dark" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success d-flex align-items-center me-4" type="submit">
+                            <i class="bi bi-search me-2"></i>
+                            <span class="d-none d-md-inline fw-bold text-dark">Search</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>    
+      </header>
+    <main>
+        <div class="container-fluid ps-5 pt-5 pb-5">
+            <div class="container ">
+                <div class="jumbotron">
+                    <h1 class="display-4 fw-bold  mb-3">Destinazine Sogni</h1>
+                    <h2 class="display-5 mb-5">Agenzia Viaggi</h2>
+                    <p class=" display-4 fw-bold text-white text-bg-dark d-inline mt-5 mb-5">Dove ti portano i tuoi sogni?</p>
+                    <hr class=" mt-5 mb-5"/>
+                    <div class="container text-center mt-5 mb-5">
+                        <div class="input-group mb-3" style="max-width: 600px; margin: 0 auto;">
+                          <input 
+                            type="text" 
+                            class="form-control" 
+                            placeholder="Ricerca il tuo sogno..." 
+                            aria-label="Ricerca il tuo sogno" 
+                            aria-describedby="button-search">
+                          <button class="btn btn-primary" type="button" id="button-search"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                            <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+                            </svg></button>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <Section id="WelcomeSummer" class="row-gap-3 py-5 mt-4">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h2 class="mb-3 fw-bold ">Welcome Summer</h2>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWelcomeSummer" aria-expanded="false" aria-controls="collapseWelcomeSummer">
+                        Nascondi
+                      </button>
+                </div>
+                <div class="row collapse show row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-6  g-4 my-4" id="collapseWelcomeSummer">
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="img/Maldive1.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Maldive</h5>
+                                <p class="card-text">Maldives (MV)</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="img/Lapponia.png" class="card-img-top img-fluid uniforn-img" alt="lapponia">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">lapponia</h5>
+                                <p class="card-text">Finland (FI)</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="img/Egitto1.png" class="card-img-top img-fluid uniforn-img" alt="Egitto1">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Piramidi Egizie</h5>
+                                <p class="card-text">Egitto (EG)</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="img/Grotta.png" class="card-img-top img-fluid uniforn-img" alt="Grotta Giusti Pistoia">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Grotta Giusti Pistoia</h5>
+                                <p class="card-text">Italia (IT)</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="img/Maldive2.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Maldive</h5>
+                                <p class="card-text">Maldives (MV)</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-lg">
+                            <img src="img/Mongolfiera.png" class="card-img-top img-fluid uniforn-img" alt="Mongolfiera">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Giro in mongolfiera</h5>
+                                <p class="card-text">Carrù (CN)</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+    
+            <Section id="DayDeal" class="d-none d-sm-block ">
+                <h2 class=" fw-bold">Day Deal</h2>
+                <div class="row row-cols-1  g-4 my-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="row">
+                                <div class="col col-lg-7">
+                                    <img src="img/Tamra.jpg" class="card-img-top" alt="Sharm el-Sheikh">
+                                </div>
+                                <div class="col col-lg-5 card-body">
+                                    <p class="text-uppercase text-secondary fw-bold">Mar Rosso - Sharm El Sheikh</p>
+                                    <h2 class="card-title fw-bold text-info-emphasis">BRAVO PREMIUM Tamra Beach</h2>
+                                    <p class="card-text font-monospace fw-bold">Formula Tutto Incluso</p>
+                                    <span class="badge badge-primary text-bg-primary">Best offer</span>
+                                    <p class="fw-bold">Check in: 18 aprCheck out: 25 apr</p>
+                                    <p class="fw-bold">7 Notti a partire da <span class="prezzo">€ 500</span></p>
+                                    <p class="fst-italic text-body-tertiary">Prezzo per tutti i passeggeri (tasse e costi inclusi)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="row">
+                                <div class="col col-lg-7">
+                                    <img src="img/Tamra1.jpg" class="card-img-top" alt="Hottel">
+                                </div>
+                                <div class="col col-lg-5 card-body">
+                                    <p class="text-uppercase text-secondary fw-bold">Sharm El Sheikh - Naama Bay</p>
+                                    <h2 class="card-title fw-bold text-info-emphasis">Gafy Beach Resort</h2>
+                                    <p class="card-text font-monospace fw-bold">Formula Tutto Incluso</p>
+                                    <span class="badge badge-primary text-bg-primary">Best offer</span>
+                                    <p class="fw-bold">Check in: 18 aprCheck out: 25 apr</p>
+                                    <p class="fw-bold">7 Notti a partire da <span class="prezzo">€ 500</span></p>
+                                    <p class="fst-italic text-body-tertiary">Prezzo per tutti i passeggeri (tasse e costi inclusi)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+    
+            <Section id="WeekDeal" class="py-5 my-4">
+                <div class="d-flex align-items-center justify-content-between">
+                    <h2 class=" fw-bold">Week Deal</h2>
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWeekDeal" aria-expanded="false" aria-controls="collapseWeekDeal">
+                        Nascondi
+                      </button>
+                </div>
+                <div class="collapse show row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4  g-4 my-3" id="collapseWeekDeal">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Maldive3.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-bold">
+                                    Veraclub Occidental Boa Vista Beach</h5>
+                                <p class="card-text text-uppercase text-secondary fw-bold">Isola di Boavista, Capo Verde</p>
+                                <p class="fw-bold">27/03/2025</p>
+                                <p class="fw-bold fst-italic text-body-tertiary">All Inclusive, 7 notti</p>
+                                <p class="prezzo fw-bold">€ 1232</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Maldive5.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-bold">BRAVO PREMIUM Maayafushi</h5>
+                                <p class="card-text text-uppercase text-secondary fw-bold">Maldive - Atollo di Maayafushi</p>
+                                <p class="fw-bold">20/02/2025</p>
+                                <p class="fw-bold fst-italic text-body-tertiary">All Inclusive, 7 notti</p>
+                                <p class="prezzo fw-bold">€ 6336</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Maldive6.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-bold">Guesthouse diffusa a Thoddoo</h5>
+                                <p class="card-text text-uppercase text-secondary fw-bold">Maldive - Atollo di Ari</p>
+                                <p class="fw-bold">05/02/2025</p>
+                                <p class="fw-bold fst-italic text-body-tertiary">All Inclusive, 7 notti</p>
+                                <p class="prezzo fw-bold">€ 5232</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Maldive8.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-bold">SeaClub Dhiggiri</h5>
+                                <p class="card-text text-uppercase text-secondary fw-bold">Maldive - Atollo di Felidhoo</p>
+                                <p class="fw-bold">10/03/2025</p>
+                                <p class="fw-bold fst-italic text-body-tertiary">All Inclusive, 7 notti</p>
+                                <p class="prezzo fw-bold">€ 7232</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+    
+            <Section id="LastMinut">
+                <h2 class="fw-bold">Last Minut</h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4  g-4 my-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Sharm2.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-bold">SeaClub Dhiggiri</h5>
+                                <p class="card-text text-uppercase text-secondary fw-bold">Maldive - Atollo di Felidhoo</p>
+                                <p class="fw-bold">10/03/2025</p>
+                                <p class="fw-bold fst-italic text-body-tertiary">All Inclusive, 7 notti</p>
+                                <p class="prezzo fw-bold">€ 71232</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Lapponia.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-bold">SeaClub Dhiggiri</h5>
+                                <p class="card-text text-uppercase text-secondary fw-bold">Maldive - Atollo di Felidhoo</p>
+                                <p class="fw-bold">10/03/2025</p>
+                                <p class="fw-bold fst-italic text-body-tertiary">All Inclusive, 7 notti</p>
+                                <p class="prezzo fw-bold">€ 2232</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Egitto.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-bold">SeaClub Dhiggiri</h5>
+                                <p class="card-text text-uppercase text-secondary fw-bold">Maldive - Atollo di Felidhoo</p>
+                                <p class="fw-bold">10/03/2025</p>
+                                <p class="fw-bold fst-italic text-body-tertiary">All Inclusive, 7 notti</p>
+                                <p class="prezzo fw-bold">€ 5232</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="img/Maldive5.png" class="card-img-top img-fluid uniforn-img" alt="Maldive">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary fw-bold">SeaClub Dhiggiri</h5>
+                                <p class="card-text text-uppercase text-secondary fw-bold">Maldive - Atollo di Felidhoo</p>
+                                <p class="fw-bold">10/03/2025</p>
+                                <p class="fw-bold fst-italic text-body-tertiary">All Inclusive, 7 notti</p>
+                                <p class="prezzo fw-bold">€ 3232</p>
+                                <a href="#" class="btn btn-primary">Prenota ora</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+    
+            <Section id="Testimonial" class="py-5 my-5">
+                <h2 class="mb-3 fw-bold">Testimonial</h2>
+                <div class="row row-cols-1 g-4 my-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sabrina Baccio</h5>
+                                <p class="card-text">Il SeaClub Dhiggiri dispone di 27 beach bungalow, 1 garden villa, 34 overwater bungalow e 3 suite di recente realizzazione. I primi, di forma circolare e con patio in legno, si affacciano sulla spiaggia e sono esternamente rivestiti in corallo e coperti da tetti rivestiti di foglie di palma. Gli interni ed i bagni, ristrutturati recentemente, sono stati ampliati e completamente rinnovati senza alterarne posizione e struttura: dispongono di un letto matrimoniale. La massima occupazione è di 2 adulti, ad eccezione di 2 beach bungalow (chiamati Maldivian garden), dotati di bagno maldiviano e circondati dalla lussureggiante vegetazione, dove è possibile sistemare 3 adulti. Gli overwater bungalow, dispongono di letto king-size, terrazza in legno coperta ed arredata, ampio solarium con lettini e doccia esterna (massima occupazione 3 adulti). Wi-Fi gratuito, cassetta di sicurezza e minibar in tutte le camere. A pagamento: consumazioni minibar. Per chi soggiorna in overwater bungalow possibilità di effettuare la colazione in camera con un piccolo supplemento.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Anabel Matrdfge</h5>
+                                <p class="card-text">Situato sull' atollo di Vaavu, il SeaClub Dhiggiri dista poco meno di 32 miglia dall’aeroporto di Male. Il trasferimento, previsto in barca veloce, dura circa 1 ora e 30 minuti , tempo variabile a seconda delle condizioni del mare. Pagando un supplemento è possibile il trasferimento in idrovolante della durata di circa 25 minuti. L’isola è circondata da una bella spiaggia corallina che si estende nel mare con una lingua di sabbia che segue i ritmi della marea. Ogni bungalow dispone di due lettini e di teli mare gratuiti a disposizione degli ospiti.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Denis Disalvo</h5>
+                                <p class="card-text">Connessione Wi-Fi gratuita in camera e nelle aree comuni, libreria ed area TV. Servizio medico e medicinali di primo soccorso sulla vicina isola di Alimathà (circa 20 minuti di “dhoni”). Sono accettate le carte di credito Visa e MasterCard non elettroniche. A pagamento: servizio di telefono/fax, boutique, escursioni ed attività facoltative. Beach-volley, bocce, ping pong e palestra. Presso “Casa vela” sono disponibili windsurf e canoe. L’animazione organizza attività sportive durante il giorno e leggeri intrattenimenti serali con piano-bar. A pagamento: attrezzatura per lo snorkeling, escursioni, noleggio catamarano e dhoni per le uscite in mare, tutte le attività del centro diving e del centro massaggi (massaggi svedesi, thai, ayurvedici e trattamenti di riflessologia plantare).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Babba Bascrete</h5>
+                                <p class="card-text">Connessione Wi-Fi gratuita in camera e nelle aree comuni, libreria ed area TV. Servizio medico e medicinali di primo soccorso sulla vicina isola di Alimathà (circa 20 minuti di “dhoni”). Sono accettate le carte di credito Visa e MasterCard non elettroniche. A pagamento: servizio di telefono/fax, boutique, escursioni ed attività facoltative. Beach-volley, bocce, ping pong e palestra. Presso “Casa vela” sono disponibili windsurf e canoe. L’animazione organizza attività sportive durante il giorno e leggeri intrattenimenti serali con piano-bar. A pagamento: attrezzatura per lo snorkeling, escursioni, noleggio catamarano e dhoni per le uscite in mare, tutte le attività del centro diving e del centro massaggi (massaggi svedesi, thai, ayurvedici e trattamenti di riflessologia plantare).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Aherdfter Acdwashyuihjrfdr</h5>
+                                <p class="card-text">Connessione Wi-Fi gratuita in camera e nelle aree comuni, libreria ed area TV. Servizio medico e medicinali di primo soccorso sulla vicina isola di Alimathà (circa 20 minuti di “dhoni”). Sono accettate le carte di credito Visa e MasterCard non elettroniche. A pagamento: servizio di telefono/fax, boutique, escursioni ed attività facoltative. Beach-volley, bocce, ping pong e palestra. Presso “Casa vela” sono disponibili windsurf e canoe. L’animazione organizza attività sportive durante il giorno e leggeri intrattenimenti serali con piano-bar. A pagamento: attrezzatura per lo snorkeling, escursioni, noleggio catamarano e dhoni per le uscite in mare, tutte le attività del centro diving e del centro massaggi (massaggi svedesi, thai, ayurvedici e trattamenti di riflessologia plantare).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Section>
+        </div>
+
+    </main>
+    <footer class="container-fluid d-flex flex-column justify-content-center align-items-center py-3 bg-dark text-light">
+        <button type="button" class="btn btn-outline-secondary mb-2" data-toggle="modal" data-target="#exampleModal">
+            Contact us
+        </button>
+        <span>© 2024 Destinazione Sogni LTD. All Rights Reserved.</span>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

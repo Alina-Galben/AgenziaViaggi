@@ -16,7 +16,7 @@ main > div:first-child {
     background-position: center;
 }
 
-.input-group {
+. {
     max-width: 600px; 
     margin: 0 auto;
     border-radius: 30px;

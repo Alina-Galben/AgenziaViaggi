@@ -17,6 +17,8 @@ main > div:first-child {
 }
 
 .input-group {
+    max-width: 600px; 
+    margin: 0 auto;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
